@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copete Restaurante</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/copete.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <div class="menu container" id="inicio">
+            <img class="logo-1" src="img/copete.png" alt="movillogocopete">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="iconos/menu.png" class="menu-icono">
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul class="fila-superior">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#products">Menú</a></li>
+                        <li><a href="#horarios-y-pagos">Contacto</a></li>
+                        <li><a href="#horarios-y-pagos">Pagos</a></li>
+                        <li><a href="#ubicacion-ambiente container">Ubicacion</a></li>
+                    </ul>
+                </div>
+                <img class="logo-2" src="img/copete.png" alt="pclogocopete">
+                <div class="menu-2">
+                    <div class="socials">
+                        <a href="https://wa.me/qr/APYLM7MTPJJGB1">
+                            <div class="social">
+                                <img src="iconos/whatsapp.png" alt="whatsapp">
+                            </div>
+                        </a>
+                        <a href="https://www.tiktok.com/@copettom458">
+                            <div class="social">
+                                <img src="iconos/tik-tok.png" alt="tik-tok">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/copeterestaurante/">
+                            <div class="social">
+                                <img src="iconos/instagram.png" alt="instagram">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Nuestro pollo a la broaster</h1>
+                                <p>Ven a Copete restaurante para que pruebes la variedad que te ofrecemos. Consigue
+                                    nuestra promoción los días viernes de DUO BROASTER. 2 servicios de 1 pieza de pollo
+                                    por solo 20.000 COP.</p>
+                            </div>
+                            <div class="slider-img">
+                                <img src="img/headerpollo.jpeg" alt="Pollo a la broaster">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Nuestro cerdo al barril</h1>
+                                <p>Que se transforma en un espectacular chicharron.
+                                    Solo aquí en Copete restaurante.
+                                </p>
+                            </div>
+                            <div class="slider-img">
+                                <img src="img/cerdoal barril.png" alt="cerdo al barril">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Especial de brochetas</h1>
+                                <p>Los días domingos ahora puedes probar nuestras nuevas brochetas mixtas, con nuestra
+                                    promoción de 2 platos de brochetas y un refresco de 2 litros por 25.000 COP.</p>
+                            </div>
+                            <div class="slider-img">
+                                <img src="img/brocheta.png" alt="Picada">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main id="products">
+        <div class="tabs-container container">
+            <div class="tabs-menu">
+                <span class="tab-button active" data-index="0">Pollo</span>
+                <span class="tab-button" data-index="1">Picadas</span>
+                <span class="tab-button" data-index="2">Salchipapas</span>
+                <span class="tab-button" data-index="3">Variedad</span>
+                <span class="tab-button" data-index="4">Bebidas</span>
+                <div class="tab-indicator"></div>
+            </div>
+            <div class="swiper myGlobalSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide category-slide">
+                        <div class="products-grid">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>1 pieza</h4>
+                                    <img src="img menu pollo/menu1.jpeg" alt="Pollo a la broaster">
+                                </div>
+                                <div class="product-txt">
+                                    <p>1 pieza de pollo, papas, ensalada y salsas. </p>
+                                    <span class="price">12.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>2 piezas</h4>
+                                    <img src="img menu pollo/menu2.jpg" alt="Pollo a la broaster">
+                                </div>
+                                <div class="product-txt">
+                                    <p>2 piezas de pollo, papas, ensalada y salsas.</p>
+                                    <span class="price">22.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>4 piezas</h4>
+                                    <img src="img menu pollo/menu3.jpeg" alt="Pollo a la broaster">
+                                </div>
+                                <div class="product-txt">
+                                    <p>4 piezas de pollo, papas, ensalada y salsas.</p>
+                                    <span class="price">42.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>8 piezas</h4>
+                                    <img src="img menu pollo/menu4.jpeg" alt="Pollo a la broaster">
+                                </div>
+                                <div class="product-txt">
+                                    <p>8 piezas de pollo, papas, ensalada y salsas.</p>
+                                    <span class="price">80.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Nuevo copete kids</h4>
+                                    <img src="img menu pollo/menu5.jpeg" alt="Copete kids">
+                                </div>
+                                <div class="product-txt">
+                                    <p>8 nuggets de pollo, papas a la francesa y jugo de cajita.</p>
+                                    <span class="price">17.000 COP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide category-slide">
+                        <div class="products-grid">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Mixta</h4>
+                                    <img src="img menu picadas/menu1.png.jfif" alt="Picada mixta">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Tenemos nuestro servicio de picadas mixtas.</p>
+                                    <span class="price">35.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Mixta</h4>
+                                    <img src="img menu picadas/menu2.jpg" alt="Picada mixta">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Para que escojas entre las mejores.</p>
+                                    <span class="price">50.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Mixta</h4>
+                                    <img src="img menu picadas/menu3.jpg" alt="Picada mixta">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Acompañada de un buen servicio de tostones.</p>
+                                    <span class="price">70.000 COP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide category-slide">
+                        <div class="products-grid">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Pequeña</h4>
+                                    <img src="img menu salchipapa/menu1.jpg" alt="Salchipapa">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Siempre de la mejor calidad.</p>
+                                    <span class="price">10.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Mediana</h4>
+                                    <img src="img menu salchipapa/menu2.jpg" alt="Salchipapa">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Diferentes opciones que ofrecemos siempre para ti.</p>
+                                    <span class="price">15.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Grande</h4>
+                                    <img src="img menu salchipapa/menu3.jpg" alt="Salchipapa">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Para que disfrutes en familia.</p>
+                                    <span class="price">25.000 COP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="swiper-slide category-slide">
+                        <div class="products-grid">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Parrilla</h4>
+                                    <img src="img variedad/parrila.jpg" alt="Parrila">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Solomo de res, carne en vara, chorizo, queso, tostones o yuca y salsa.</p>
+                                    <span class="price">35.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Patacon</h4>
+                                    <img src="img variedad/patacon.jpg" alt="Patacon">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Carne en vara, tocineta, huevo, jamón, queso, lechuga, tomate y salsa.</p>
+                                    <span class="price">30.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Carne en vara</h4>
+                                    <img src="img variedad/Carne en vara.jpg" alt="Carne en vara">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Carne en vara, yuca, queso, chimichurri y salsa.</p>
+                                    <span class="price">25.000 COP</span>
+                                    <span class="price">45.000 COP</span>
+                                    <span class="price">80.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Chicharrón</h4>
+                                    <img src="img variedad/chicharron.jpeg" alt="Chicharron">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Servicio de chicharrón, tostones, guacamole y limón .</p>
+                                    <span class="price">30.000 COP</span>
+                                    <span class="price">50.000 COP</span>
+                                    <span class="price">100.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Hervido cruzado</h4>
+                                    <img src="img variedad/hervido.jpg" alt="Hervido cruzado">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Costilla, pescado, cangrejo, verduras. Servicio de yuca y queso. </p>
+                                    <span class="price">18.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Brochetas mixtas</h4>
+                                    <img src="img variedad/brocheta.jpg" alt="Brochetas mixtas">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Res, cochino, y pollo a la brasa. Acompañada de tostones, yuca, queso y salsa.
+                                    </p>
+                                    <span class="price">80.000 COP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide category-slide">
+                        <div class="products-grid">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Agua panela</h4>
+                                    <img src="img bebidas/aguapanela2.jfif" alt="Agua panela">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Agua panela bien fría.</p>
+                                    <span class="price">3.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Refrescos</h4>
+                                    <img src="img bebidas/infobebidas.webp" alt="Coca-cola 1l 2l y personal">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Coca-cola, pepsi, variedad de sabores.</p>
+                                    <span class="price">3.000 COP</span>
+                                    <span class="price">6.000 COP 1L</span>
+                                    <span class="price">8.000 COP 2L</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Cervezas</h4>
+                                    <img src="img bebidas/cerveza2.jfif" alt="Cervezas">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Para acompañar tus comidas.</p>
+                                    <span class="price">4.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Malta</h4>
+                                    <img src="img bebidas/malta3.jfif" alt="Malta">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Malta bien fría.</p>
+                                    <span class="price">3.000 COP</span>
+                                </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>Agua mineral</h4>
+                                    <img src="img bebidas/agua2.jfif" alt="Agua mineral">
+                                </div>
+                                <div class="product-txt">
+                                    <p>Agua fresca mineral.</p>
+                                    <span class="price">2.500 COP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <section class="info container swiper myInfoSwiper">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide info-slide-content">
+                <div class="info-img">
+                    <img src="img menu pollo/info pollo.jpg" alt="info pollo">
+                </div>
+                <div class="info-txt">
+                    <h2>Pollo a la broaster</h2>
+                    <p>
+                        Nuestro pollo está preparado y sazonado al estilo de copete. Las piezas de pollo puedes pedirlas
+                        a tu gusto, junto con el acompañamiento que desees, papas a la francesa, ensalada y salsas.
+                    </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide info-slide-content">
+                <div class="info-img">
+                    <img src="img menu picadas/menu2.jpg" alt="info picadas">
+                </div>
+                <div class="info-txt">
+                    <h2>Nuestras picadas</h2>
+                    <p>
+                        Disfruta de nuestras picadas mixtas junto con los servicios que más te gusten, preparadas con
+                        carne de res, chicharrón, carne en vara, chorizo, queso picado en cuadros, lechuga, tomate y
+                        salsas.
+                    </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide info-slide-content">
+                <div class="info-img">
+                    <img src="img menu salchipapa/info salchipapa.jpg" alt="info salchipapa">
+                </div>
+                <div class="info-txt">
+                    <h2>Salchipapas</h2>
+                    <p>
+                        Si quieres comer algo rico, sencillo y rápido nuestras salchipapas son las mejores opciones que
+                        hay. Están preparadas con papas a la francesa, salchichas de calidad, buen queso rallado y la
+                        salsa que escojas de preferencia.
+                    </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide info-slide-content">
+                <div class="info-img">
+                    <img src="img variedad/infovariedad.jpg" alt="info variedad">
+                </div>
+                <div class="info-txt">
+                    <h2>Nuestra variedad de menú </h2>
+                    <p>
+                        ¿No te decides? Explora nuestra variedad de platos especiales, para compartir con amigos
+                        o familia, y entradas deliciosas pensadas para todos los gustos.
+                    </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide info-slide-content">
+                <div class="info-img">
+                    <img src="img bebidas/infobebidas.webp" alt="info bebidas">
+                </div>
+                <div class="info-txt">
+                    <h2>Para acompañar tu comida</h2>
+                    <p>
+                        Aquí en copete puedes conseguir igual una gran variedad de bebidas que te acompañaran en esta
+                        experiencia. No te pierdas también la promoción de dos refrescos de 1L por solo 7.000 COP.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="horario" id="horarios-y-pagos">
+        <div class="horario-info container">
+
+            <div class="bloque-seccion">
+                <h2>Ven y encuéntranos</h2>
+                <div class="horario-grid-columna">
+                    <div class="txt">
+                        <img src="iconos/marcador info.png" alt="Dirección">
+                        <h4>Dirección</h4>
+                        <p>Carrera 4, con C. 5,</p>
+                        <p>San Juan de Colón 5003, Táchira</p>
+                    </div>
+                    <div class="txt">
+                        <img src="iconos/calendario.png" alt="Horario">
+                        <h4>Horario</h4>
+                        <p>Miércoles a Viernes : 5:00 PM - 10:00 PM</p>
+                        <p>Sábado y Domingo : 11:00 AM - 11:00 PM</p>
+                    </div>
+                    <div class="txt">
+                        <img src="iconos/llamada-telefonica.png" alt="Teléfono">
+                        <h4>Teléfono</h4>
+                        <p>0424-7638133</p>
+                        <p>0424-7644138</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bloque-seccion">
+                <h2>Métodos de Pago</h2>
+                <div class="horario-grid-columna">
+                    <div class="txt">
+                        <img src="iconos/efectivo.png" alt="Efectivo">
+                        <h4>Efectivo</h4>
+                        <p>Pesos Colombianos</p>
+                        <p>COP y Dólares USD</p>
+                    </div>
+                    <div class="txt">
+                        <img src="iconos/llamada-telefonica.png" alt="Pago Móvil">
+                        <h4>Pago Móvil</h4>
+                        <p>0424-7638133</p>
+                        <p>C.I 20.394.517</p>
+                        <p>BANCO DE VENEZUELA</p>
+                    </div>
+                    <div class="txt">
+                        <img src="iconos/credito2.png" alt="Tarjetas">
+                        <h4>Transferencias</h4>
+
+                        <div class="bancos-container">
+
+
+                            <div class="banco-columna">
+                                <h4>BANCO DE VENEZUELA</h4>
+                                <p>C.I 20.394.517</p>
+                                <p>0102 0120 9000 0004 9825</p>
+                                <p>Victor A. Cepeda R.</p>
+                            </div>
+
+
+                            <div class="banco-columna">
+                                <h4>BANCOLOMBIA</h4>
+                                <p>Ahorros</p>
+                                <p>088-716517-37</p>
+                                <p>Erika Natalia Delgado</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="ubicacion-ambiente container" id="ubicacion-ambiente container">
+        <div class="mapa-contenedor">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.733445766074!2d-72.2506621452793!3d8.026396402152358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e66611263df5d75%3A0x88c9651bf452007b!2sCOPETE%20Restaurante!5e0!3m2!1ses!2sve!4v1780786959697!5m2!1ses!2sve"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="marco-fotos-wrapper">
+            <button class="slider-btn prev-btn" id="prevFoto">❮</button>
+            <button class="slider-btn next-btn" id="nextFoto">❯</button>
+
+            <div class="marco-fotos-slider">
+                <div class="slider-track" id="sliderTrack">
+                    <div class="grupo-fotos">
+                        <div class="foto-miniatura"><img src="img intalaciones de copete/instalaciones 1.jpg"
+                                alt="Ambiente Copete 1"></div>
+                        <div class="foto-miniatura"><img src="img intalaciones de copete/instalaciones 2.jpg"
+                                alt="Ambiente Copete 2"></div>
+                        <div class="foto-miniatura"><img src="img intalaciones de copete/intalaciones3.jpg"
+                                alt="Ambiente Copete 3"></div>
+                        <div class="foto-miniatura"><img src="img intalaciones de copete/instalaciones4.jpg"
+                                alt="Ambiente Copete 4"></div>
+                    </div>
+                    <div class="grupo-fotos">
+                        <div class="foto-miniatura"><img src="img intalaciones de copete/clientes.jpg"
+                                alt="Ambiente Copete 5"></div>
+                        <div class="foto-miniatura"><img src="img intalaciones de copete/jefes.jpeg"
+                                alt="Ambiente Copete 6"></div>
+                        <div class="foto-miniatura"><img src="img intalaciones de copete/personaloperativo.jpeg"
+                                alt="Ambiente Copete 7"></div>
+                        <div class="foto-miniatura"><img src="img intalaciones de copete/personas2.jpeg"
+                                alt="Ambiente Copete 8"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="sitio-footer">
+        <div class="footer-contenido">
+            <h3 class="footer-lema">EL MEJOR PUNTO DE ENCUENTRO</h3>
+            <p class="footer-descripcion">
+                Descubre nuestra especialidad.<br>
+                Te esperamos para ofrecerte el mejor <span>servicio y calidad</span> del pueblo.
+            </p>
+            <div class="footer-redes-wrapper">
+                <h4 class="footer-subtitulo">SÍGUENOS</h4>
+                <ul class="footer-redes-lista">
+                    <li>
+                        <a href="https://wa.me/qr/APYLM7MTPJJGB1" class="red-social ws" aria-label="whatsapp">
+                            <img src="iconos/whatsapp.png" alt="whatsapp">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tiktok.com/@copettom458" class="red-social tk" aria-label="TikTok">
+                            <img src="iconos/tik-tok.png" alt="Tik-tok">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/copeterestaurante/" class="red-social ig"
+                            aria-label="Instagram">
+                            <img src="iconos/instagram.png" alt="Instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+    <div class="copy">
+        <p>&copy; 2026 Copete Restaurante. Todos los derechos reservados.</p>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
